@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <style>
+    footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
     ::-moz-placeholder {  /* Firefox 19+ */
    text-align: center;  
 }
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    top: 100px;
+    overflow: hidden;
+}
 .logo {
     text-align: center;
+    top: 0%;
+}
+li {
+    font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
     input[type="file"]{
         border: 100px;
@@ -27,10 +48,27 @@
     }
 </style>
 <h1 class="logo">
+    <ul>
+        <li style="float: left;">About</li>
+        <li style="float: left;">Store</li>
+        <li style="float: right;">Gmail</li>
+        <li style="float: right;">Images</li>
+    </ul>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
 </h1>
 <p><div class="box">
 <input type="text" id=search placeholder="Google Search"required>
 </div>
+<footer>
+    <ul>
+        <li style="float: left;">Advertising</li>
+        <li style="float: left;">Business</li>
+        <li style="float: left;">How Search works</li>
+        <li style="float: right;">Privacy</li>
+        <li style="float: right;">Terms</li>
+        <li style="float: right;">Setting</li>
+        </div>
+    </ul>
+</footer>
 </p>
 </html>
